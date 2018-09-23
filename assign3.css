@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.borderimg{
+    background-image: linear-gradient(#06478B, white);
+    
+
+}
+.bordermain{
+    padding: 20px;
+}
+
+.border{
+    border: 1px solid #000000;
+
+}
+
+.header{
+    min-height: 80px;
+   background-color:white;
+    overflow: hidden;
+    
+}
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.logo{
+    width: 10%;
+    float: left;
+    margin-top: 10px;
+    
+}
+.nav{
+    width: 65%;
+    height: 30px;
+    float: right;
+    margin-top: 30px;
+    right: 20%;
+
+   
+    
+    
+}
+.nav ul{
+    list-style: none;
+    
+}
+.nav ul li{
+    float: left;
+    left: 20%;
+    
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0 30px;
+    font font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding: 14px 30px;
+
+    
+    
+}
+.nav ul li a:hover{
+    color: aqua;
+}
+.banner{
+    background-image: url(villa.jpg);
+    min-height: 450px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+
+    
+}
+.banner_text{
+	position: relative;
+	border:none;
+    width: 28%;
+    height: 220px;
+    bottom: 20px;
+    margin-top: 85px;
+    background: rgba(0,0,0,.5);
+    box-sizing:  border-box;
+    padding: 8px;
+    right: 6%;
+    border-radius: 2%;
+    
+}
+.banner_text h2{
+	position: relative;
+	top: 10px;
+	left: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: bookman body copy;
+    font-weight: 100;
+    
+}
+.banner_text p{
+	position: relative;
+	top: 10px;
+	left: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: bookman body copy;
+    font-weight: 100;
+    
+}
+.banner_text button{
+    margin-top: 30px;
+    background-color: grey;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4%;
+    transition: 1s;
+    position: relative;
+	top: 10px;
+	left: 10px;
+	color: white;
+    
+}
+.banner_text button:hover{
+    color: white;
+    background-color: red;
+    
+    
+}
+
+.service{
+	overflow: hidden;
+	background-color: white;
+	color: black;
+	padding: 70px 10px;
+}
+.service_section{
+	overflow: hidden;
+}
+.service1{
+	float: left;
+	width: 30%;
+	padding-left: 25px;
+    margin-bottom: 10px;
+	
+}
+
+.content{
+	overflow: hidden;
+}
+
+.content_img{
+	width: 90%;
+    height: 150px;
+	float: left;
+}
+
+
+.content_text{
+	position: relative;
+	width: 80%;
+    padding: 14px 30px;
+}
+
+
+.content button{
+	position: relative;
+	background-color: #274162;
+	color: white;
+	border-radius: 8%;
+	 margin-top: 40px;
+     left: 30%;
+     border: none;
+      padding: 5px 15px;
+}
+.footer{
+	overflow: hidden;
+	position: relative;
+	min-height: 100px;
+	background-color: white;
+
+}
+.footer p{
+	position: relative;
+	position: center;
+	left: 35%;
+	color: #555F68;
+}
+.footer_icon{
+    position: relative;
+    left: 43%;
+
+}
+.footer_icon .fa-facebook{
+    color: blue;
+}
+.footer_icon .fa-twitter-square{
+    color:skyblue;
+}
+.footer_icon .fa-google-plus-square{
+    color: red;
+}
+.footer_icon .fa-rss-square{
+    color: orange;
+}
+.content h2{
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 10px;
+    color: #555F68;
+    font-family: bookman body copy;
+    font-weight: 100;    
+    
+}
